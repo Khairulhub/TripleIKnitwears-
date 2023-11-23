@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 <body>
-    <header class="" >
+    <header  >
       <nav class="navbar navbar-expand-lg navbar-light bg-light" >
         <div class="container-fluid container-lg">
           <a class="navbar-brand" href="#">
@@ -21,16 +21,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fw-bold active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link fw-bold home" aria-current="page" href="./index.html" >Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="./asset/pages/about.html">About</a>
+                <a class="nav-link fw-bold about" href="./asset/pages/about.html"  >About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="./asset/pages/portfolio.html">Portfolio</a>
+                <a class="nav-link fw-bold portfolio" href="./asset/pages/portfolio.html"  >Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold" href="./asset/pages/contact.html">Contact Us</a>
+                <a class="nav-link fw-bold contact" href="./asset/pages/contact.html"  >Contact Us</a>
               </li>
               
               
@@ -74,15 +74,16 @@
 
 
     <main>
-        <!-- carosel -->
-        <div id="carouselExample" class="carousel slide">
+      <div class="container-fluid   d-xxl-none m-0 p-0">
+          <!-- carosel -->
+          <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./asset/img/rmg_2 1.png" class=" position-relative w-100" alt="...">
-                <div class=" position-absolute top-50 start-0 translate-middle-y text-light ms-lg-5 ps-sm-4 ps-md-5">
-                    <div class="">
-                        <h1 class="fw-bold fontsize">Welcome to <br> Triple I Knitwears Ltd </h1>
-                            <h2> Your Premier Knitwear Manufacturer
+                <div class=" position-absolute top-50 start-0 translate-middle-y text-light ms-lg-5 ps-lg-5 ps-sm-4 ps-md-5">
+                    <div class=" ">
+                        <h1 class="fw-bold fontsize textlg">Welcome to <br> Triple I Knitwears Ltd </h1>
+                            <h2 class="ml-15"> Your Premier Knitwear Manufacturer
                             </h2>
                     </div>
                   </div>
@@ -100,6 +101,41 @@
               <span class="visually-hidden">Next</span>
             </button> -->
           </div>
+      </div>
+
+      <div class="container-fluid d-none d-xxl-block m-0 p-0 " >
+        <div class="container mx-auto m-0 p-0">
+            <!-- carosel -->
+        <div id="carouselExample" class="carousel slide m-0 p-0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./asset/img/rmg_2 1.png" class=" position-relative w-100" alt="...">
+              <!-- <div class=" position-relative w-100">
+
+              </div> -->
+              <div class=" position-absolute top-50 start-50 translate-middle text-light ">
+                  <div class=" ">
+                      <h1 class="fw-bold fontsize textlg text-center">Welcome to <br> Triple I Knitwears Ltd </h1>
+                          <h2 class="ml-15"> Your Premier Knitwear Manufacturer
+                          </h2>
+                  </div>
+                </div>
+            </div>
+            
+            
+            
+          </div>
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button> -->
+          <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button> -->
+        </div>
+        </div>
+      </div>
 
 
 
@@ -237,7 +273,7 @@
                                   <div class="col-md-3 d-flex justify-content-center align-items-center  px-3">
                                     <img src="./asset/img/2560px-Pull&Bear_logo.svg.png" alt="" class="img-fluid">
                                   </div>
-                                  <div class="col-md-3 d-flex justify-content-center align-items-center  px-3">
+                                  <div class="col-md-3 d-flex justify-content-center align-items-center  px-3 py-sm-3">
                                     <img src="./asset/img/LPP_(company)_logo.svg" alt="" class="img-fluid lpp">
                                   </div>
                                   <div class="col-md-3 d-flex justify-content-center align-items-center  px-3">
@@ -247,7 +283,7 @@
 
 
 
-                                <p class="text-white">And Many More- </p>
+                                <p class="text-white mt-4">And Many More- </p>
                                 <p class="text-white">We take pride in serving renowned brands globally, building lasting relationships through our dedication to excellence.</p>
                             </div>
                         </div>
@@ -365,5 +401,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  
+  <script src="./asset/js/main.js"></script>
+  
 </body>
 </html>

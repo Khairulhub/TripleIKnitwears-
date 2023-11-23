@@ -8,11 +8,17 @@ body{
     background-color: #fff;
 }
 /* utilities */
+.active{
+    color: #242263 !important;
+    font-weight: 700 !important;
+}
 
 .fontsize{
     font-size: 80px !important;
 }
-
+p{
+    text-align: justify !important;
+}
 
 .textcolor1{
     color: #252363 !important;
@@ -33,9 +39,7 @@ body{
 }
 
 
-.lpp{
-    height: 50px !important;
-}
+
 
 
 
@@ -220,6 +224,10 @@ footer input{
 @media screen  and (max-width: 576px){
     .fontsize{
         font-size: 38px !important;
+        margin-left: 15px;
+    }
+    .ml-15{
+        margin-left: 15px;
     }
     .vertical{
         position: relative;
@@ -246,6 +254,11 @@ footer input{
         background-repeat: no-repeat;
         position: relative;
       
+    }
+
+    .lpp{
+        height: 50px !important;
+        margin: 45px 0 ;
     }
     .routed {
         text-transform: lowercase;
@@ -275,6 +288,10 @@ footer input{
         left: 0;
         transform: translateX(-50%);
     }
+    .lpp{
+        height: 40px !important;
+        margin: 45px 0 ;
+    }
     .routed {
         text-transform: lowercase;
         word-wrap: break-word;
@@ -301,6 +318,10 @@ footer input{
         left: 0;
         transform: translateX(-50%);
     }
+    .lpp{
+        height: 40px !important;
+        margin: 45px 0 ;
+    }
     footer img{
         height: 50px !important;
     }
@@ -323,6 +344,18 @@ footer input{
     }
 }
 @media screen  and (min-width: 1200px) {
+    /* .textlg{
+        max-width: 1240px !important;
+        margin: 0 auto !important;
+    } */
+    .fontsize{
+        font-size: 70px !important;
+        
+        
+    }
+    .lpp{
+        height: 40px !important;
+    }
     .vertical{
         position: relative;
         display: inline-block;
