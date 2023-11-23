@@ -9,12 +9,16 @@ body{
 }
 /* utilities */
 
+.fontsize{
+    font-size: 80px !important;
+}
+
 
 .textcolor1{
     color: #252363 !important;
 }
 .textcolor2{
-    color: #1D2130 !important;
+    color: #242263 !important;
 }
 
 .bg-info{
@@ -46,7 +50,7 @@ body{
     content: "";
     height: 2px;
     width: 40px;
-    background-color: #252363;
+    background-color:  #242263;
     position: absolute;
     top: 0;
     left: -50px;
@@ -212,6 +216,9 @@ footer input{
 
 
 @media screen  and (max-width: 576px){
+    .fontsize{
+        font-size: 38px !important;
+    }
     .vertical{
         position: relative;
         display: inline-block;
