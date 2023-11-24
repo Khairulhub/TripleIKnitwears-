@@ -12,7 +12,6 @@ body{
     color: #242263 !important;
     font-weight: 700 !important;
 }
-
 .fontsize{
     font-size: 80px !important;
 }
@@ -37,15 +36,92 @@ p{
 .text-primary{
     color: #242263 !important;
 }
+/* uitility end css */
+
+/* home page  */
+.herobg{
+    background-image: url('../img/rmg_2\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* position: relative; */
+
+}
+
+.herobg .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+.vertical{
+    position: relative;
+    display: inline-block;
+}
+.vertical::before {
+    content: "";
+    height: 300px;
+    width: 2px;
+    background-color: #252363;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.middile-vartical h4::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+   background-image: url('../img/icon/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg');
+    background-size: contain;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+   
+}
+/* home end css */
+
+
+/* about page */
+.compliance{
+    background-image: url('../img/thomas-william-9DzHo6hOof0-unsplash.jpg');
+    
+    background-size: cover; /* Adjust as needed */
+    background-attachment: fixed;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+}
+.aboutherobg{
+    background-image: url('../img/DSC1557.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* position: relative; */
+}
+.aboutherobg .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+/* about end css */
 
 
 
 
 
-
-
-
-
+/* for home about contact portfolio */
 .bfore{
     position: relative;
     display: inline-block;
@@ -63,20 +139,7 @@ p{
     transform: translateY(-50%);
 }
 
-.vertical{
-    position: relative;
-    display: inline-block;
-}
-.vertical::before {
-    content: "";
-    height: 300px;
-    width: 2px;
-    background-color: #252363;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    transform: translateX(-50%);
-}
+
 
 /* .middile-vartical h4{
     position: relative;
@@ -96,23 +159,7 @@ p{
     transform: translateX(-50%);
 } */
 
-.middile-vartical h4::before {
-    content: "";
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-   background-image: url('../img/icon/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg');
-    background-size: contain;
-    float: left;
-    margin-left: 20px;
-    margin-right: 10px;
-    /* position: absolute;
-    top: 0px;
-    left: -15px;
-    right: 0;
-    bottom: 0;
-    transform: translateX(-50%); */
-}
+
 .middile-vartical p{
     font-size: 16px !important;
 }
@@ -143,24 +190,33 @@ textarea:focus{
 
 
 }
-footer ul{
-    padding: 0;
-    margin: 0;
-}
-footer ul li{
-    list-style: none;
-}
-.submitbtn{
-    background-color: #252363; 
-    color: #fff;
-}
-footer input{
-    border-radius: 0 !important;
-   outline: 1px solid #252363 !important;
-   border: 1px solid #252363 !important;
-   background-color: transparent !important;
+
+
+
+
+
+/* contact page  */
+
+.contactherobg{
+    background-image: url('../img/DSC1557.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* position: relative; */
 
 }
+
+.contactherobg .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+
 
 .colspan2{
     padding-left: 0 !important;
@@ -219,6 +275,33 @@ footer input{
     width: 30px !important;
     line-height: 0.9;
 }
+/* contact end  */
+
+
+/* footer css  */
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer ul li{
+    list-style: none;
+}
+.submitbtn{
+    background-color: #252363; 
+    color: #fff;
+}
+footer input{
+    border-radius: 0 !important;
+   outline: 1px solid #252363 !important;
+   border: 1px solid #252363 !important;
+   background-color: transparent !important;
+
+}
+
+
+
+
+
 
 
 @media screen  and (max-width: 576px){
